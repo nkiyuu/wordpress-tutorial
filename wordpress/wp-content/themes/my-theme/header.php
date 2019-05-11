@@ -17,7 +17,7 @@
 </title>
 <?php
 	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script( 'my-theme-common', get_template_directory_uri() . '/js/common.js' );
+	wp_enqueue_script( 'my-theme-common', get_template_directory_uri() . '/js/common.js', array(), true, true );
 	wp_head();
 ?>
 </head>
