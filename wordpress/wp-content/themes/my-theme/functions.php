@@ -17,7 +17,7 @@ function my_comment_form_default_fields( $args ) {
 }
 
 add_filter( 'excerpt_mblength', 'my_excerpt_mblength' );
-function my_exerpt_mblength() {
+function my_excerpt_mblength() {
 	return 100;
 }
 

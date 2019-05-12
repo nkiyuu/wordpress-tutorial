@@ -70,7 +70,7 @@
 		</div><!-- /.mainContents -->
 
 		<aside class="subContents">
-			<?php get_sidebar(); ?>
+			<?php get_sidebar( 'beds' ); ?>
 		</aside><!-- /.subContents -->
 	</div><!-- /.contentsWrap -->
 <?php get_footer(); ?>
